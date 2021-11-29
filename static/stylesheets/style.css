@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 2rem;
+}
+
+.ipt{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 5px 30px 5px 30px;
+    text-align:center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(32, 143, 235);
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.bad {
+    padding: 30px;
+    text-align:center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(235, 32, 76);
+    border: 2px solid black;
+}
+
+.good {
+    padding: 30px;
+    text-align:center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(46, 156, 96);
+    border: 2px solid black;
+}
